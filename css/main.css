@@ -21,7 +21,7 @@ html, body {
 header {
   height: 300px;
   width: 100%;
-  background: #290012;
+  background: #CC9600;
 }
 
 
@@ -60,32 +60,37 @@ footer {
 
 @media (min-width: 768px) {
   header {
-    background-color: #FFF4D6;
+    background-color: #FFEBF3;
   }
 
   #column-1 {
     background-color: #8F6900 ;
+   
   }
 
   #column-2 {
     background-color: #FD905E;
+   
   }
 
   #column-3 {
     background-color: #FFADD1;
+    
   }
 
   footer {
     background-color: #FFEBF3;
   }
-  
+  .col-3 {
+    width: 33.3%;
+  }
 }
 
 
 /*---------- Desktops ----------*/
 @media (min-width: 1200px) {
   header {
-    background-color: #66002E;
+    background-color: #291F00;
   }
 
   #column-1 {
@@ -103,5 +108,7 @@ footer {
   footer {
     background-color: #291F00;
   }
-   
+  .col-3 {
+    width: 33.3%;
+  }
 }
